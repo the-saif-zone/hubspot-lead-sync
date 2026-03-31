@@ -128,30 +128,26 @@ pytest test_lead_sync.py -v
 ```text
 Lead Sync — Starting...
 
-Found 6 leads to process.
+Found 12 leads to process.
 
 Processing: Amr Sherif
   ✓ Synced successfully.
 
-Processing: Yousef Atieh
-  ✓ Synced successfully.
+Processing: Fatima Rashid
+  Invalid email: fatima.rashid@INVALID
+  ✗ Validation failed — skipping.
 
-Processing: Salahedeen Issa
-  Invalid email: salahedeen.issa@INVALID
+Processing: Khalid Nasser
+  Invalid UAE phone: +97141234567 (expected +971XXXXXXXXX)
   ✗ Validation failed — skipping.
 
 Processing: Faisal Salamah
   ✓ Synced successfully.
 
-Processing: Nour Al Dabbagh
-  Invalid UAE phone: +97141837291 (expected +971XXXXXXXXX)
-  ✗ Validation failed — skipping.
-
-Processing: Rania Barakat
-  ✓ Synced successfully.
+...
 
 =============================================
-Sync complete — 4 succeeded, 2 failed.
+Sync complete — 9 succeeded, 3 failed.
 =============================================
 ```
 
