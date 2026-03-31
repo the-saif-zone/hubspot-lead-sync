@@ -130,24 +130,24 @@ Lead Sync — Starting...
 
 Found 6 leads to process.
 
-Processing: Ahmed Al Mansoori
+Processing: Amr Sherif
   ✓ Synced successfully.
 
-Processing: Sara Al Farsi
+Processing: Yousef Atieh
   ✓ Synced successfully.
 
-Processing: Fatima Rashid
-  Invalid email: fatima.rashid@INVALID
+Processing: Salahedeen Issa
+  Invalid email: salahedeen.issa@INVALID
   ✗ Validation failed — skipping.
 
-Processing: Khalid Nasser
-  Invalid UAE phone: +97141234567 (expected +971XXXXXXXXX)
-  ✗ Validation failed — skipping.
-
-Processing: Mariam Hassan
+Processing: Faisal Salamah
   ✓ Synced successfully.
 
-Processing: Omar Yusuf
+Processing: Nour Al Dabbagh
+  Invalid UAE phone: +97141837291 (expected +971XXXXXXXXX)
+  ✗ Validation failed — skipping.
+
+Processing: Rania Barakat
   ✓ Synced successfully.
 
 =============================================
