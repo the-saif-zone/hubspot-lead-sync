@@ -158,3 +158,18 @@ Sync complete — 5 succeeded, 3 failed.
 📺 [Watch the demo on YouTube](#) ← *(link coming)*
 
 The demo runs the full pipeline against `sample_leads.csv`, showing validation rejections, successful syncs, and the resulting contacts appearing live in HubSpot CRM.
+
+## Limitations & Roadmap
+
+This tool is functional for bulk lead validation and CRM syncing in a UAE context. The following enhancements would be required for full production deployment:
+
+- **Update logic** — currently, existing contacts (409 Conflict) are skipped rather than updated. A production version would perform a lookup and patch the existing record
+- **Pre-flight deduplication** — duplicate detection before the API call to reduce unnecessary network requests
+- **UAE landline support** — extends phone validation to accept landline formats (+9714xxxxxxx) for B2B use cases
+- **Arabic name handling** — robust name parsing for Arabic-script input
+- **Output reporting** — export a post-run CSV log of successful syncs, failures, and skips
+- **Encoding handling** — explicit UTF-8 enforcement to support Arabic characters in CSV input
+
+## Data & Privacy
+
+All leads in `sample_leads.csv` are entirely fictitious. Names, emails, phone numbers, and company names are randomly generated and do not correspond to any real individual or organization. This project was developed in the UAE, where data privacy is governed by Federal Decree-Law No. 45 of 2021. No real personal data was used at any stage of development or testing.
