@@ -168,7 +168,7 @@ Sync complete — 9 succeeded, 3 failed.
 
 ## Demo
 
-📺 [Watch the demo on YouTube](#) ← *(link coming)*
+📺 [Watch the demo on YouTube](https://youtu.be/3Idf5YEFNEQ)
 
 The demo runs the full pipeline against `sample_leads.csv`, showing validation rejections, successful syncs, and the resulting contacts appearing live in HubSpot CRM.
 
