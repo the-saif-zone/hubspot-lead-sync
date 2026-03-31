@@ -1,5 +1,5 @@
 # Lead Sync — Automated CRM Lead Management
-### CSV validation · HubSpot API integration · UAE market ready
+### CSV validation · HubSpot API integration · UAE Customer Data Localization
 
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square)
 ![HubSpot](https://img.shields.io/badge/HubSpot-CRM%20API-FF7A59?style=flat-square)
